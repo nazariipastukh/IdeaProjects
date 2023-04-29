@@ -1,0 +1,136 @@
+body{
+    height:550vh;
+    margin: 0;
+    overflow-x: hidden;
+    }
+p{
+    margin: 0;
+}
+.start{
+    background-color: black;
+    height: 100vh;
+}
+.start_header{
+    display: flex;
+    height:5vh;
+    width: 100vw;
+    background: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.navigation{
+    height:10vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    height: 5vh;
+    width:66.6vw;
+}
+.logo{
+    margin-left:5vw;
+    width: 15vw;
+    height: 5vh;
+}
+.links{
+    height: 5vh;
+    width: 35vw;
+    margin-right:7vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: #848895;
+}
+.start_main{
+    height:65vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.start_footer{
+    height:20vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 0.68px;
+    color: #FFFFFF;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.left_button{
+    margin-right: 2vw;
+    width: 181px;
+    height: 52px;
+    background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+    border: 1px solid #000000;
+    border-radius: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.right_button{
+    width: 146px;
+    height: 52px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.start_footer_text{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 7vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #618ADC;
+}
+.sponsor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80vw;
+    height: 5vh;
+}
+
+
+
+
