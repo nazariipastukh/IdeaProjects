@@ -28,8 +28,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
+    /*position: sticky;*/
+    /*top: 0;*/
 }
 nav {
     height: 5vh;
@@ -232,6 +232,98 @@ div.page>.content>.content-box>.content-bottom>.textbox:nth-child(3)>.text-box{
 }
 .linkbox{
     color: #19FB9B;
+}
+.any {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.any-box{
+    height:70vh;
+    width: 70vw;
+}
+.any-head{
+    height:6vh;
+    width:70vw;
+    display: flex;
+    justify-content: space-between;
+}
+.any-h{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.any-nav{
+    width:28vw;
+    height:6vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.any-button{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 14px 10px 14px;
+    background: #111111;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+}
+div.page>.any>.any-box>.any-head>.any-nav>.any-button:nth-child(1){
+    border: 1px solid #A962FF;
+}
+.any-images{
+    margin:4vh 0;
+    height:50vh;
+    width:70vw;
+    background-color: black;
+    display: flex;
+}
+.any-left{
+    height:50vh;
+    width:35vw;
+    background-image: url("image/IMAGE (1).png");
+    background-size: cover;
+}
+.any-right{
+    background-color: #232222;
+    height:29vh;
+    width:22vw;
+    padding: 68px 150px 90px 50px;
+}
+.any-logo{
+    width: 240px;
+    height: 52.57px;
+    left: 45px;
+    top: 94.65px;
+    margin-bottom:2vh;
+}
+.any-column{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom:2vh;
+    color: #FFFFFF;
+}
+.any-links{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #A962FF;
+    font-family: 'Roboto', sans-serif;
+}
+.any-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
